@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="tugas1.css" type="text/css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <style>
+        .b1 {
+            background-image: url("teema2.jpg")
+        }
+
+        .nav-item {
+            margin: 15px;
+        }
+
+        .galery {
+            display: flex;
+        }
+
+        .slide {
+            height: 100px;
+            width: 70px;
+        }
+
+        .isi {
+            background-color: black;
+            padding-top: 80px;
+        }
+
+        .fitting {
+            width: 150px;
+            height: 400px;
+            object-fit: fill;
+        }
+
+        .fitting2 {
+            width: 100%;
+            width: 200px;
+        }
+
+        .row {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 60px;
+        }
+
+        .info div div img {
+            padding: 10px
+        }
+
+        .fitting3 {
+            width: 100%;
+            height: 250px
+        }
+
+        .fitting2:hover {
+            transform: scale;
+        }
+
+        .fitting2 {
+            animation-name: animasi;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+            bottom: 80px;
+            left: 20px;
+        }
+
+        @keyframes slide {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+                
+            }
+        }
+        .carousel-item{
+            animation-name: slide;
+            animation-duration: 2s;
+        }
+        .nav-item:hover a{
+            background-color: gold;
+            color:black;
+            border-radius: 10px;
+        }
+        .fitting2:hover{
+            transform: scale(0.9) rotate(-5deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <div class="b1">
+            <nav class="navbar navbar-dark navbar-expand bg-black bg-opacity-50 bg-opacity-75 ">
+                <div class="container-fluid">
+                    <box-icon type='solid' name='camera-home' color="white" size="lg" class="align-self-center">
+                    </box-icon>
+                    <a class="navbar-brand d-flex align-content-center justify-content-center" href="#">
+
+                        <div>Jendela Gunungkidul</div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html"><b>Home </b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html"><b>Profile</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="home2.html"><b>Signout</b></a>
+                            </li>
+                        </ul>
+                        <div class="ms-auto"><img src="logo_gk.png" height="80" width="210"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <div class="isi container-fluid w-100">
+        <div class="row py-5">
+            <div class="col-3">
+                <div class="container-fluid bg-black" style="height:400px;width:100%" color="white">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner" style="width:300px">
+                            <div class="carousel-item active">
+                                <img src="wpp2.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="wpp5.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container-fluid bg-black" style="height:400px;width:100%" color="white">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner" style="width:300px">
+                            <div class="carousel-item active">
+                                <img src="wpp4.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="wpp6.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container-fluid bg-black" style="height:400px;width:100%" color="white">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner" style="width:300px">
+                            <div class="carousel-item active">
+                                <img src="wpp7.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="carohome3.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container-fluid bg-black" style="height:400px;width:100%" color="white">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner" style="width:300px">
+                            <div class="carousel-item active">
+                                <img src="carohome6.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="carohome7.jpg" class="d-block w-100 fitting" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b1">
+        <div class=" container-fluid-isi2" style="  color:white">
+
+            <div class="bg-black bg-opacity-75 ">
+                <div style="height: 40px;">
+                    <center>
+                        <h2>Destinasi Wisata</h2>
+                    </center>
+                </div>
+                <div class="row bg-black">
+                    <div class="col-md-4">
+
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="pantaingobaran1.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4>Pantai Ngobaran</h4>
+                                    </center><br>
+                                    <p>Pantai dengan dekorasi bangunan bak pura membuat kita seolah olah sedang berada
+                                        di bali
+                                    </p>
+                                    <a href="content-pantaingobaran.html" class="btn btn-outline-warning">Lihat
+                                        Profil</a>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="srigethuk.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4> SRI GETHUK</h4>
+                                    </center><br>
+                                    <p>Air terjun yang berada di aliran sungai oyo yang sangat jernih dan masih alami
+                                    </p>
+                                    <a href="content-srigethuk.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="pantaibaron.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4>Pantai Baron</h4>
+                                    </center><br>
+                                    <p>Pantai yang populer dengan banyak fasilitas wisata dan pemandangan yang
+                                        spektakuler
+                                    </p>
+                                    <a href="content-pantaibaron.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="embungsriten2.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4>Embung Sriten</h4>
+                                    </center><br>
+                                    <p>Danau buatan yang terletak di puncak pegunungan, gunung sewu Gunungkidul
+                                    </p>
+                                    <a href="content-embungsriten.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="hehasky1.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4>HEHA SKY</h4>
+                                    </center><br>
+                                    <p>Tempat hits dengan pemandangan kota jogja dibawahnya yang indah dan menakjubkan
+                                    </p>
+                                    <a href="content-hehasky.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table cellpadding="10">
+                            <tr>
+                                <td style="height:40%">
+                                    <img src="pantaigesing3.jpg" class="fitting2">
+                                </td>
+                                <td>
+                                    <center>
+                                        <h4>Pantai Gesing</h4>
+                                    </center><br>
+                                    <p>Pantai di Gunungkidul yang masih alami yang menjadi tempat favorit melihat sunset
+                                    </p>
+                                    <a href="content-pantaisadeng.html" class="btn btn-outline-warning">Lihat Profil</a>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="info">
+                    <center>
+                        <h5>WISATA TERPOPULER</h5>
+                    </center>
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-4">
+                                <div style="background-color:black; border-radius:30px; width:98%; padding: 2%;">
+                                    <img src="watupayungpenting.jpg"
+                                        style="display: block; width: 100%;border-radius:30px;" class="fitting3">
+                                    <center>
+                                        <h3>WATU PAYUNG</h3>
+                                    </center>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam accusamus nemo
+                                        illum
+                                        suscipit quo earum qui recusandae architecto labore numquam magni explicabo,
+                                        velit
+                                        cupiditate aliquid pariatur, optio eligendi vel provident?</p>
+                                    <a href="content-watupayung.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="background-color:black; border-radius:30px; width:98%; padding: 2%;">
+                                    <img src="heha2.jpg" style="display: block; width: 100%;border-radius:30px;"
+                                        class="fitting3">
+                                    <center>
+                                        <h3>HEHA OCEAN</h3>
+                                    </center>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam accusamus nemo
+                                        illum
+                                        suscipit quo earum qui recusandae architecto labore numquam magni explicabo,
+                                        velit
+                                        cupiditate aliquid pariatur, optio eligendi vel provident?</p>
+                                    <a href="content-hehaocean.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="background-color:black; border-radius:30px; width:98%; padding: 2%;">
+                                    <img src="goapindul2.jpg" style="display: block; width: 100%;border-radius:30px;"
+                                        class="fitting3">
+                                    <center>
+                                        <h3>GOA PINDUL</h3>
+                                    </center>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam accusamus nemo
+                                        illum
+                                        suscipit quo earum qui recusandae architecto labore numquam magni explicabo,
+                                        velit
+                                        cupiditate aliquid pariatur, optio eligendi vel provident?</p>
+                                    <a href="content-goapindul.html" class="btn btn-outline-warning">Lihat Profil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- //backgroound// -->
+            </div>
+            <!-- //backgroound// -->
+        </div>
+        <!-- //backgroound// -->
+    </div>
+    <!-- //backgroound// -->
+
+
+
+
+
+</body>
+
+</html>

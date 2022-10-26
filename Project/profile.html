@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<style>
+    * {
+        font-family: 'Oxygen', sans-serif;
+        ;
+    }
+
+    .b1 {
+        background-image: url("teema2.jpg")
+    }
+
+    .nav-item {
+        margin: 15px;
+    }
+
+    .fotoprofil {
+        background-image: url("comunity.webp");
+        width: 100%;
+        height: 100%;
+    }
+
+    .colom {
+        background-color: black;
+        animation: fade-right 2s ease;
+    }
+
+    @keyframes fade-right {
+        0% {
+            transform: translateY(-100px);
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    .row.col-md-3 :hover {
+        box-shadow: gold;
+
+    }
+
+    .col-md-3 .bg-black:hover {
+
+        transform: translatey(-20px);
+
+    }
+
+    .nav-item:hover a {
+        background-color: gold;
+        color: black;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <div class="fixed-top">
+        <div class="b1">
+            <nav class="navbar navbar-dark navbar-expand bg-black bg-opacity-50 bg-opacity-75 ">
+                <div class="container-fluid">
+                    <box-icon type='solid' name='camera-home' color="white" size="lg" class="align-self-center">
+                    </box-icon>
+                    <a class="navbar-brand d-flex align-content-center justify-content-center" href="#">
+
+                        <div>Jendela Gunungkidul</div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item active">
+                                <a class="nav-link"  id="home" onclick="fungsihome()"><b>Home </b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html"><b>Profile</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="home2.html"><b>Signout</b></a>
+                            </li>
+                        </ul>
+                        <div class="ms-auto"><img src="logo_gk.png" height="80" width="210"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="b1" style="height:1300px;">
+        <div class="container-fluid bg-black bg-opacity-75 " style="padding-top: 100px;height:1300px">
+
+            <div class="row margin-right:30px">
+
+                <div class="col-md-7 colom" style="height:550px;padding-top: 30px;">
+                    <img src="comunity.webp" style="border-radius:10%;height:500px;">
+                </div>
+                <div class="col-md-5 colom"
+                    style="width:38%;border-bottom-right-radius: 130px;color: white;  display: flex; align-content: center; flex-wrap: wrap;">
+                    <span style="font-size: 30px;">KOMMUNITAS KAMI<br></span>
+                    <span style="font-size: 20px;">Kami adalah komunitas yang bergerak pada bidang pariwisata dan
+                        bertujuan untuk memajukan daerah
+                        gunungkidul lewat bidadng pariwisata</span>
+                </div>
+                <div class="isi2" style="margin-top:50px ">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="bg-black"
+                                style="height:300px; width:95%; margin:0 2px; color:white;padding:10px; border-radius: 20px;">
+                                <center>
+                                    <h4>MEMAJUKAN</h4>
+                                </center><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi natus quos et,
+                                aliquam animi officia excepturi reprehenderit tenetur dolore rerum laboriosam vero
+                                voluptas esse hic alias debitis dolor. Illum.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-black"
+                                style="height:300px; width:95%; margin:0 2px; color:white;padding:10px; border-radius: 20px;">
+                                <center>
+                                    <h4>MENGEMBANGKAN</h4>
+                                </center><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi natus quos et,
+                                aliquam animi officia excepturi reprehenderit tenetur dolore rerum laboriosam vero
+                                voluptas esse hic alias debitis dolor. Illum.
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-black"
+                                style="height:300px; width:95%; margin:0 2px; color:white;padding:10px; border-radius: 20px;">
+                                <center>
+                                    <h4>MENLESTARIKAN</h4>
+                                </center><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi natus quos et,
+                                aliquam animi officia excepturi reprehenderit tenetur dolore rerum laboriosam vero
+                                voluptas esse hic alias debitis dolor. Illum.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-black"
+                                style="height:300px; width:95%; margin:0 2px; color:white;padding:10px; border-radius: 20px;">
+                                <center>
+                                    <h4>MENGINSPIRASI</h4>
+                                </center><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi natus quos et,
+                                aliquam animi officia excepturi reprehenderit tenetur dolore rerum laboriosam vero
+                                voluptas esse hic alias debitis dolor. Illum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="bg-black"
+                        style="height:250px; width:100%; border-top-left-radius:30px; border-top-right-radius:30px; margin-top: 50px;">
+                        <div class="container-fluid row">
+                            <div class="col-md-6"
+                                style="color:white; display:flex;align-content: center; flex-wrap: wrap; justify-content:center; padding-top: 80px;">
+                                <H4>HUBUNGI KAMI</H4>
+                                Jln. Ky Haji Agus Salim No.93, WOnosari Gunungkidul DI Yogyakarta
+                            </div>
+
+
+                            <div class="col-md-6"
+                                style="color:white;display: flex; align-items: center; margin-top: 30px;justify-content: center;">
+
+                                <box-icon type='logo' name='instagram' color="white" size="lg" style="margin:10px">
+                                </box-icon>
+                                <box-icon type='logo' name='gmail' color="white" size="lg" style="margin:10px">
+                                </box-icon>
+                                <box-icon type='logo' name='whatsapp' color="white" size="lg" style="margin:10px">
+                                </box-icon>
+                                <box-icon type='logo' name='facebook-circle' color="white" size="lg"
+                                    style="margin:10px"></box-icon>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let home= document.querySelector('#home');
+        function fungsihome(){
+        let nilai=localStorage.getItem('nilai');
+        alert=(nilai)
+        if (nilai==1){
+            home.setAttribute('href','home-copy.html')
+        }
+        else{
+            home.setAttribute('href','home.html')
+        }}
+    </script>
+
+</body>
+
+</html>
